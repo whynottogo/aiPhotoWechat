@@ -1,0 +1,21 @@
+<view class="page">
+  <view class="title-container">
+    <view class="icon-container">
+      <van-icon name="photo-o" />
+    </view>
+    <view class="title">黑白图片上色</view>
+  </view>
+  <image class="pic" src="../../images/home/5.png"></image>
+  <view class="tips-container">
+    <view class="tips-title">一键让图片充满色彩</view>
+    <view class="tips-content">
+      <van-icon name="good-job-o" />
+      <view class="tips">适用于老照片，旧照片，黑白照片等，进行AI上色</view>
+    </view>
+    <view class="tips-content">
+      <van-icon name="photo-o" />
+      <view class="tips">原图片大小不能超过8M，服务器会保存定期删除图片，生成后请及时下载</view>
+    </view>
+  </view>
+  <button class="chooseButton" hover-class="chooseButton-hover" bindtap="chooseImg">选择图片</button>
+</view>

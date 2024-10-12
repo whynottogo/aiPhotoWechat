@@ -1,0 +1,81 @@
+.page {
+  width: 100vw;
+  padding: 0 4vw 0 4vw;
+}
+
+.title-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vh;
+  width: 92vw;
+}
+
+.icon-container {
+  width: 10vw;
+  border-radius: 3em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  height: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  padding-left: 4vw;
+  font-size: 1.2em;
+}
+
+.pic {
+  width: 92%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.tips-container {
+  margin-top: 10px;
+  width: 92vw;
+}
+
+.tips-title {
+  padding-left: 5vw;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.tips-content {
+  display: flex;
+  justify-content:flex-start;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.tips {
+  font-size: 0.7em;
+  color: rgb(177, 177, 177);
+  padding-left: 10px;
+  width: 80vw;
+  line-height: 1.5;
+}
+
+.chooseButton {
+  position: fixed;
+  bottom: 2em;
+  width: 70vw;
+  color: white;
+  background-color: black;
+  left: 15vw;
+  border-radius: 10px;
+}
+
+.chooseButton-hover{
+  position: fixed;
+  bottom: 2em;
+  width: 70vw;
+  color: white;
+  background-color: black;
+  left: 15vw;
+  border-radius: 10px;
+  box-shadow:0px 0px 10px #bbbec4 inset; 
+}

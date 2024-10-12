@@ -1,0 +1,21 @@
+<view class="page">
+  <view class="title-container">
+    <view class="icon-container">
+      <van-icon name="photo-o" />
+    </view>
+    <view class="title">人像图片抠图</view>
+  </view>
+  <image class="pic" src="../../images/home/4.png"></image>
+  <view class="tips-container">
+    <view class="tips-title">智能识别人像，一键迅速抠图</view>
+    <view class="tips-content">
+      <van-icon name="good-job-o" />
+      <view class="tips">适用于带有人像的图片，进行人像抠图，背景透明</view>
+    </view>
+    <view class="tips-content">
+      <van-icon name="photo-o" />
+      <view class="tips">原图片大小不能超过8M，服务器会保存定期删除图片，生成后请及时下载</view>
+    </view>
+  </view>
+  <button class="chooseButton" hover-class="chooseButton-hover" bindtap="chooseImg">选择图片</button>
+</view>

@@ -1,0 +1,11 @@
+<view class="page">
+  <image mode="widthFix" class="pic" bindtap='clickImg' src="{{imgSrc}}">
+  </image>
+  <view class="tips">
+    点击图片可放大查看
+  </view>
+  <view class="actioins">
+    <view class="buttons return" bindtap="returns">返回</view>
+    <view class="buttons download" bindtap='download' data-url="{{imgSrc}}" bindtap="savePicUrlAndImg">下载</view>
+  </view>
+</view>

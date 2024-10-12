@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "图片预览",
+  "navigationStyle": "default",
+  "usingComponents": {
+    "van-notify": "@vant/weapp/notify/index"
+  }
+}

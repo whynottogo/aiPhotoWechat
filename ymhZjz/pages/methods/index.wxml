@@ -1,0 +1,34 @@
+<view class="methods">
+  <!-- 衣服选择模块 -->
+  <view class="block" wx:for="{{picInfoList}}" wx:key="index">
+    <view class="title">{{item.title}}</view>
+    <view class="cont">
+      <view class="left">
+        <image src="{{item.pic}}" class="image" mode="widthFix"></image>
+      </view>
+      <view class="right">
+        <view class="msg">{{item.info1}}</view>
+        <view class="msg">{{item.info2}}</view>
+        <view class="msg">{{item.info3}}</view>
+      </view>
+    </view>
+  </view>
+  <!-- 拍照技巧模块 -->
+  <view class="block" wx-if="{{picInfoList.length==0}}">
+    <view class="other-content">
+      <view class="other-block">
+        <image class="other-img" bindtap="navigateTo" data-url="/pages/sizeList/index" src="../../images/home/3.png"></image>
+        <view class="other-msg">AI证件照</view>
+        <view class="other-msg2">支持多种尺寸+自定义背景</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部按钮 -->
+  <view class="bottom" wx-if="{{picInfoList.length!=0}}">
+    <view class="left-line"></view>
+    <text bindtap="navigateTo" data-url="/pages/sizeList/index" class="navigate-button">去试试</text>
+    <view class="right-line"></view>
+  </view>
+
+</view>
