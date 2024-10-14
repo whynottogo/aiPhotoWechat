@@ -12,7 +12,7 @@
 
 **相关项目**：
 
-- 小程序后端请联系开发者
+- 小程序后端地址：https://github.com/whynottogo/aiPhotoApiPublic
 - 本项目基于原项目二次开发，原项目地址：https://github.com/no1xuan/zjzWx
 
 ------
