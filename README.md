@@ -4,7 +4,7 @@
 
 # 项目介绍
 
-# <p align="center">证件照伴侣</p>
+# <p align="center">AI智能照</p>
 <p align="center">我给你的，就是我想要的，我爱你的方式，就是我希望被爱的方式.</p>
 <p align="center"><img src="./assets/1.png"></p>
 
@@ -12,7 +12,8 @@
 
 **相关项目**：
 
-- 小程序后端请前往：https://github.com/no1xuan/zjzWx
+- 小程序后端请联系开发者
+- 本项目基于原项目二次开发，原项目地址：https://github.com/no1xuan/zjzWx
 
 ------
 
@@ -50,6 +51,6 @@
 
 您可以通过以下方式联系我:
 
-QQ: 24677102
+QQ: 43883407
 
-微信：webxuan
+微信：shynin
