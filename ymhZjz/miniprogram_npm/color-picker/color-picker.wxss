@@ -1,7 +1,7 @@
 .dialog {
   visibility: hidden;
   opacity: 0;
-  transition: all 0.3s;
+  /* transition: all 0.3s; */
 }
 
 .dialog_show {

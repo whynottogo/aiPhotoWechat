@@ -66,17 +66,23 @@
 
 .container .photo-edit-content .canvas-view {
   position: relative;
-  width: 100%;
-  height: 300px;
   margin: 0 auto;
   box-sizing: content-box;
   overflow: hidden;
+  background-color:#fff;
+  width: 240.0px;
+  height: 336px
 }
 
 .container .photo-edit-content .canvas-view .people-photo {
   position: absolute;
   width: 100%;
   transform-origin: center center;
+  width: 240.0px;
+  height: 336px;
+  left: 120.0px;
+  top: 164.0px;
+  transform: translate(-50%, -50%) scale(1) rotate(0deg);
 }
 
 .download-view {
@@ -178,9 +184,20 @@
 }
 
 .nowx_mask {
-  margin: auto;
-  position: absolute;
   bottom: 0;
-  left: 0;
-  right: 0;
+}
+
+.van-tab__pane {
+  overflow: hidden;
+}
+
+.frontImg {
+  top:30px;
+  left:70px;
+}
+
+.custom {
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
 }

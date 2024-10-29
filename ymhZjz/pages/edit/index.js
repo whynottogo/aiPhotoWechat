@@ -14,6 +14,20 @@ let twoPoint = {
 import Dialog from '@vant/weapp/dialog/dialog'
 Page({
   data: {
+    backColor: [
+      //蓝色
+      {color: "#438edb", style: "background-color:#438edb"},
+      //白色
+      {color: "#ffffff", style: "background-color:#ffffff"},
+      //红色
+      {color: "#ff0000", style: "background-color:#ff0000"},
+      //浅蓝色
+      {color: "#66b5f2", style: "background-color:#66b5f2"},
+      //绿色
+      {color: "#07c160", style: "background-color:#07c160"},
+      //黄色
+      {color: "#ffc300", style: "background-color:#ffc300"}
+    ],
     imageData: {},
     showScale: 480 / 295,
     width: 0,
@@ -259,7 +273,6 @@ Page({
       }
     });
   },
-
 
   // 解决用户拒绝相册问题
   checkq() {

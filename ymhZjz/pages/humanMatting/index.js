@@ -11,7 +11,6 @@ Page({
   },
 
   chooseImg() {
-    console.log(1111)
     if (wx.getStorageSync("token") == "") {
       wx.navigateTo({
         url: '/pages/login/index',
